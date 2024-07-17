@@ -1,0 +1,277 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.arashivision.sdk.demo"
+4    android:versionCode="58"
+5    android:versionName="1.6.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+12-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:6:5-79
+12-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:8:5-81
+14-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission
+15-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:9:5-11:58
+16        android:name="android.permission.BLUETOOTH_SCAN"
+16-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:10:9-57
+17        android:usesPermissionFlags="neverForLocation" />
+17-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:11:9-55
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:12:5-74
+18-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:12:22-71
+19    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+19-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:13:5-78
+19-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:13:22-75
+20    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+20-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:14:5-76
+20-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:14:22-73
+21
+22    <uses-feature
+22-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:15:5-17:35
+23        android:name="android.hardware.bluetooth_le"
+23-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:16:9-53
+24        android:required="true" />
+24-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:17:9-32
+25
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->[me.rosuh:AndroidFilePicker:0.6.7-x] C:\Users\pc\.gradle\caches\transforms-3\868fd1ae4b043c85787cfed3f388ed7e\transformed\jetified-AndroidFilePicker-0.6.7-x\AndroidManifest.xml:11:5-80
+26-->[me.rosuh:AndroidFilePicker:0.6.7-x] C:\Users\pc\.gradle\caches\transforms-3\868fd1ae4b043c85787cfed3f388ed7e\transformed\jetified-AndroidFilePicker-0.6.7-x\AndroidManifest.xml:11:22-77
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->[me.rosuh:AndroidFilePicker:0.6.7-x] C:\Users\pc\.gradle\caches\transforms-3\868fd1ae4b043c85787cfed3f388ed7e\transformed\jetified-AndroidFilePicker-0.6.7-x\AndroidManifest.xml:12:5-81
+27-->[me.rosuh:AndroidFilePicker:0.6.7-x] C:\Users\pc\.gradle\caches\transforms-3\868fd1ae4b043c85787cfed3f388ed7e\transformed\jetified-AndroidFilePicker-0.6.7-x\AndroidManifest.xml:12:22-78
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->[com.lzy.net:okgo:3.0.4] C:\Users\pc\.gradle\caches\transforms-3\a437bf3372f309fc6cad6aa0780b80e1\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:26:5-67
+28-->[com.lzy.net:okgo:3.0.4] C:\Users\pc\.gradle\caches\transforms-3\a437bf3372f309fc6cad6aa0780b80e1\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:26:22-64
+29    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+29-->[com.lzy.net:okgo:3.0.4] C:\Users\pc\.gradle\caches\transforms-3\a437bf3372f309fc6cad6aa0780b80e1\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:29:5-84
+29-->[com.lzy.net:okgo:3.0.4] C:\Users\pc\.gradle\caches\transforms-3\a437bf3372f309fc6cad6aa0780b80e1\transformed\jetified-okgo-3.0.4\AndroidManifest.xml:29:22-81
+30    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+30-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:9:5-85
+30-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:9:22-82
+31    <uses-permission android:name="android.permission.BLUETOOTH" />
+31-->[com.arashivision.minicamera:fastble:3.0.39_2] C:\Users\pc\.gradle\caches\transforms-3\f9828d03de9252ee201d64408aec4eb1\transformed\jetified-fastble-3.0.39_2\AndroidManifest.xml:9:5-68
+31-->[com.arashivision.minicamera:fastble:3.0.39_2] C:\Users\pc\.gradle\caches\transforms-3\f9828d03de9252ee201d64408aec4eb1\transformed\jetified-fastble-3.0.39_2\AndroidManifest.xml:9:22-65
+32    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+32-->[com.arashivision.minicamera:fastble:3.0.39_2] C:\Users\pc\.gradle\caches\transforms-3\f9828d03de9252ee201d64408aec4eb1\transformed\jetified-fastble-3.0.39_2\AndroidManifest.xml:11:5-79
+32-->[com.arashivision.minicamera:fastble:3.0.39_2] C:\Users\pc\.gradle\caches\transforms-3\f9828d03de9252ee201d64408aec4eb1\transformed\jetified-fastble-3.0.39_2\AndroidManifest.xml:11:22-76
+33    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+34
+35    <application
+35-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:19:5-99:19
+36        android:name="com.arashivision.sdk.demo.MyApp"
+36-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:20:9-30
+37        android:allowBackup="true"
+37-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:21:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.3.1] C:\Users\pc\.gradle\caches\transforms-3\35b1b8cc14d875f8d99dc1279b304dad\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="true"
+40-->[com.arashivision.minicamera:minicamera:11.0.149_2] C:\Users\pc\.gradle\caches\transforms-3\93a6a413b46ae151d7933811d90f4b66\transformed\jetified-minicamera-11.0.149_2\AndroidManifest.xml:13:9-41
+41        android:icon="@mipmap/ic_launcher"
+41-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:22:9-43
+42        android:label="@string/app_name"
+42-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:23:9-41
+43        android:largeHeap="true"
+43-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:24:9-33
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:25:9-54
+45        android:supportsRtl="true"
+45-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:26:9-35
+46        android:testOnly="true"
+47        android:theme="@style/AppTheme"
+47-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:27:9-40
+48        android:usesCleartextTraffic="true" >
+48-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:28:9-44
+49        <activity
+49-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:29:9-46:20
+50            android:name="com.arashivision.sdk.demo.activity.MainActivity"
+50-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:30:13-50
+51            android:exported="true"
+51-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:31:13-36
+52            android:screenOrientation="portrait" >
+52-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:32:13-49
+53            <intent-filter>
+53-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:33:13-37:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:34:17-69
+54-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:34:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:36:17-77
+56-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:36:27-74
+57            </intent-filter>
+58            <intent-filter>
+58-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:39:13-41:29
+59                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+59-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:40:17-90
+59-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:40:25-87
+60            </intent-filter>
+61
+62            <meta-data
+62-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:43:13-45:57
+63                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+63-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:44:17-79
+64                android:resource="@xml/device_filter" />
+64-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:45:17-54
+65        </activity>
+66        <activity
+66-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:48:9-51:52
+67            android:name="com.arashivision.sdk.demo.activity.BleActivity"
+67-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:49:13-49
+68            android:exported="false"
+68-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:50:13-37
+69            android:screenOrientation="portrait" />
+69-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:51:13-49
+70        <activity
+70-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:52:9-55:52
+71            android:name="com.arashivision.sdk.demo.activity.FullDemoActivity"
+71-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:53:13-54
+72            android:exported="false"
+72-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:54:13-37
+73            android:screenOrientation="portrait" />
+73-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:55:13-49
+74        <activity
+74-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:56:9-59:52
+75            android:name="com.arashivision.sdk.demo.activity.PreviewActivity"
+75-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:57:13-53
+76            android:exported="false"
+76-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:58:13-37
+77            android:screenOrientation="portrait" />
+77-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:59:13-49
+78        <activity
+78-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:60:9-63:52
+79            android:name="com.arashivision.sdk.demo.activity.Preview2Activity"
+79-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:61:13-54
+80            android:exported="false"
+80-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:62:13-37
+81            android:screenOrientation="portrait" />
+81-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:63:13-49
+82        <activity
+82-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:64:9-67:52
+83            android:name="com.arashivision.sdk.demo.activity.Preview3Activity"
+83-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:65:13-54
+84            android:exported="false"
+84-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:66:13-37
+85            android:screenOrientation="portrait" />
+85-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:67:13-49
+86        <activity
+86-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:68:9-70:52
+87            android:name="com.arashivision.sdk.demo.activity.LiveActivity"
+87-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:69:13-50
+88            android:screenOrientation="portrait" />
+88-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:70:13-49
+89        <activity
+89-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:71:9-74:52
+90            android:name="com.arashivision.sdk.demo.activity.CaptureActivity"
+90-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:72:13-53
+91            android:exported="false"
+91-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:73:13-37
+92            android:screenOrientation="portrait" />
+92-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:74:13-49
+93        <activity
+93-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:75:9-78:52
+94            android:name="com.arashivision.sdk.demo.activity.OscActivity"
+94-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:76:13-49
+95            android:exported="false"
+95-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:77:13-37
+96            android:screenOrientation="portrait" />
+96-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:78:13-49
+97        <activity
+97-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:79:9-82:52
+98            android:name="com.arashivision.sdk.demo.activity.CameraFilesActivity"
+98-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:80:13-57
+99            android:exported="false"
+99-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:81:13-37
+100            android:screenOrientation="portrait" />
+100-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:82:13-49
+101        <activity
+101-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:83:9-86:52
+102            android:name="com.arashivision.sdk.demo.activity.PlayAndExportActivity"
+102-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:84:13-59
+103            android:exported="false"
+103-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:85:13-37
+104            android:screenOrientation="portrait" />
+104-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:86:13-49
+105        <activity
+105-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:87:9-90:52
+106            android:name="com.arashivision.sdk.demo.activity.MoreSettingActivity"
+106-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:88:13-57
+107            android:exported="false"
+107-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:89:13-37
+108            android:screenOrientation="portrait" />
+108-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:90:13-49
+109        <activity
+109-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:91:9-94:52
+110            android:name="com.arashivision.sdk.demo.activity.StitchActivity"
+110-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:92:13-52
+111            android:exported="false"
+111-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:93:13-37
+112            android:screenOrientation="portrait" />
+112-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:94:13-49
+113        <activity
+113-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:95:9-98:52
+114            android:name="com.arashivision.sdk.demo.activity.FwUpgradeActivity"
+114-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:96:13-55
+115            android:exported="false"
+115-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:97:13-37
+116            android:screenOrientation="portrait" />
+116-->D:\Android-projects\sdkdemo2\app\src\main\AndroidManifest.xml:98:13-49
+117        <activity
+117-->[me.rosuh:AndroidFilePicker:0.6.7-x] C:\Users\pc\.gradle\caches\transforms-3\868fd1ae4b043c85787cfed3f388ed7e\transformed\jetified-AndroidFilePicker-0.6.7-x\AndroidManifest.xml:15:9-17:62
+118            android:name="me.rosuh.filepicker.FilePickerActivity"
+118-->[me.rosuh:AndroidFilePicker:0.6.7-x] C:\Users\pc\.gradle\caches\transforms-3\868fd1ae4b043c85787cfed3f388ed7e\transformed\jetified-AndroidFilePicker-0.6.7-x\AndroidManifest.xml:16:13-66
+119            android:configChanges="orientation|screenSize" />
+119-->[me.rosuh:AndroidFilePicker:0.6.7-x] C:\Users\pc\.gradle\caches\transforms-3\868fd1ae4b043c85787cfed3f388ed7e\transformed\jetified-AndroidFilePicker-0.6.7-x\AndroidManifest.xml:17:13-59
+120
+121        <uses-native-library
+121-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:12:9-14:40
+122            android:name="libOpenCL.so"
+122-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:13:13-40
+123            android:required="false" />
+123-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:14:13-37
+124        <uses-native-library
+124-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:12:9-14:40
+125            android:name="libGLES_mali.so"
+125-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:13:13-40
+126            android:required="false" />
+126-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:14:13-37
+127        <uses-native-library
+127-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:12:9-14:40
+128            android:name="libmali.so"
+128-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:13:13-40
+129            android:required="false" />
+129-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:14:13-37
+130        <uses-native-library
+130-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:12:9-14:40
+131            android:name="libPVROCL.so"
+131-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:13:13-40
+132            android:required="false" />
+132-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:14:13-37
+133        <uses-native-library
+133-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:12:9-14:40
+134            android:name="libpocl.so"
+134-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:13:13-40
+135            android:required="false" />
+135-->[com.arashivision.sdk:basemedia:1.6.4] C:\Users\pc\.gradle\caches\transforms-3\913c25b31c86d06c98b5912a66fb9460\transformed\jetified-basemedia-1.6.4\AndroidManifest.xml:14:13-37
+136
+137        <meta-data
+137-->[com.arashivision.minicamera:minicamera:11.0.149_2] C:\Users\pc\.gradle\caches\transforms-3\93a6a413b46ae151d7933811d90f4b66\transformed\jetified-minicamera-11.0.149_2\AndroidManifest.xml:16:9-18:72
+138            android:name="io.fabric.ApiKey"
+138-->[com.arashivision.minicamera:minicamera:11.0.149_2] C:\Users\pc\.gradle\caches\transforms-3\93a6a413b46ae151d7933811d90f4b66\transformed\jetified-minicamera-11.0.149_2\AndroidManifest.xml:17:13-44
+139            android:value="ae5ab529bd2fdc6e194fad6d8af135c8c1fa8527" />
+139-->[com.arashivision.minicamera:minicamera:11.0.149_2] C:\Users\pc\.gradle\caches\transforms-3\93a6a413b46ae151d7933811d90f4b66\transformed\jetified-minicamera-11.0.149_2\AndroidManifest.xml:18:13-69
+140    </application>
+141
+142</manifest>

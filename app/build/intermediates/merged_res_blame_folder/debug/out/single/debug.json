@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_more_setting.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_more_setting.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_osc.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_osc.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_recycler_item_ble_device.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\recycler_item_ble_device.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_capture.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_full_demo.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_full_demo.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stitch.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_stitch.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_preview.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_preview.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_live.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_live.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ble.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_ble.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fw_upgrade.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_fw_upgrade.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_preview2.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_preview2.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_preview3.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_preview3.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_connect_camera_item.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\drawable\\bg_connect_camera_item.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_play_and_export.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_play_and_export.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_recycler_item_camera_file.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\recycler_item_camera_file.xml"
+    },
+    {
+        "merged": "D:\\Android-projects\\sdkdemo2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_camera_files.xml.flat",
+        "source": "D:\\Android-projects\\sdkdemo2\\app\\src\\main\\res\\layout\\activity_camera_files.xml"
+    }
+]
