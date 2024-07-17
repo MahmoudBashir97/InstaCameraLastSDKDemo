@@ -164,7 +164,7 @@ public class BleActivity extends BaseObserveCameraActivity implements IScanBleLi
             String ssid = InstaCameraManager.getInstance().getWifiInfo().getSsid();
             String password = InstaCameraManager.getInstance().getWifiInfo().getPwd();
             Log.d("???", "bleConfigData : ssid :" + ssid + " " + password);
-            //finish();
+            finish();
         }
     }
 
